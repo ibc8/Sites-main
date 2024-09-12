@@ -150,6 +150,7 @@ ul, ol {
 }
 .rect2:hover{
     box-shadow: 0 4px 20px 0 #386e87;
+    animation: 5s show ease;
 }
 .end {
     margin-top: 20px;
