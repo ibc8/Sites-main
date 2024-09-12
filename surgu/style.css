@@ -14,6 +14,7 @@
     border-radius: 1000px;
     height: 160px;
     width: 160px;
+    border: 3px solid #7e7e7e;
 }
 .left_side {
     display: flex;
@@ -72,36 +73,41 @@ body {
     width: 740px;
     height: 150px;
     margin: 44px 29px 66px 29px;
-    border: 1px solid #5A9645;
+    border: 1px solid #386e87;
     border-radius: 30px;
 }
 .table-th1 {
     padding-top: 10px;
     text-align: center;
-    border: 1px solid #5A9645;
+    border: 1px solid #386e87;
     border-left: none;
     border-bottom: none;
     border-top: none;
+    font-weight: 800;
+    color: #386e87;
 }
 .table-th2 {
     padding: 10px 10px 10px 10px;
     text-align: center;
-    border: 1px solid #5A9645;
+    border: 1px solid #386e87;
     border-right: none;
     border-bottom: none;
     border-top: none;
+    color: #386e87;
+    font-weight: 800;
 }
 .ul {
-    border: 1px solid #5A9645;
+    border: 1px solid #386e87;
     border-left: none;
     height: 110px;
     border-bottom: none;
 }
 .ol {
-    border: 1px solid #5A9645;
+    border: 1px solid #386e87;
     height: 110px;
     border-right: none;
     border-bottom: none;
+    
 }
 
 ul, ol {
@@ -109,7 +115,7 @@ ul, ol {
     text-align: start;
 }
 .tech {
-    background-color: #5A9645;
+    background-color: #386e87;
     width: 740px;
     height: 30px;
     border-radius: 10px;
@@ -143,11 +149,10 @@ ul, ol {
     height: 50px;
 }
 .rect2:hover{
-    box-shadow: 0 4px 20px 0 #5a9645;
+    box-shadow: 0 4px 20px 0 #386e87;
 }
 .end {
     margin-top: 20px;
-
 }
 .end-text-up {
     display: flex;
@@ -171,12 +176,12 @@ ul, ol {
 }
 .end-button {
     margin-top: 20px;
-    background-color: #5A9645;
+    background-color: #386e87;
     border: 1px solid rgb(122, 122, 122);
     border-radius: 10px;
 }
 .end-button:hover {
-    box-shadow: 0 4px 20px 0 black;
+    box-shadow: 0 1px 30px 0 rgb(112, 112, 112);
 }
 .end-button-image {
     margin: 5px;
@@ -193,4 +198,12 @@ ul, ol {
     font-size: 14px;
     font-weight: 500;
     font-family: Inter;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #386e87;
+    font-weight: 700;
 }
